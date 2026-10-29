@@ -1,0 +1,29 @@
+# Ambiente e segredos (API Key do AI Studio!)
+.env
+.env.*
+*.key.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js / TypeScript
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ADK
+.adk/
+
+# Planos gerados pelo agente (dados pessoais)
+planos/
+
+# Sistema e editores
+.DS_Store
+.vscode/
+.idea/
